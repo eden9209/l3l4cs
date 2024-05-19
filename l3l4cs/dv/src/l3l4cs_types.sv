@@ -1,0 +1,3 @@
+`ifndef L3L4CS_TYPES_SV
+`define L3L4CS_TYPES_SV
+`endif // L3L4CS_TYPES_SV

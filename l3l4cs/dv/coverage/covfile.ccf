@@ -1,0 +1,7 @@
+select_coverage -bet -instance pde_top.pde_wrp.pde_dut
+#select_coverage -bet -instance l4m_top.l4m_wrp.l4m_i
+#select_coverage -bet -module *
+
+# displays 'Range' column:
+set_covergroup -dump_sized_bin_range
+

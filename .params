@@ -1,0 +1,9 @@
+######### Updated on date: "2023-12-18 10:35:23 #########"
+export WS=/mnt/apps/myshare/edens/WS_l3l4cs0
+export PROJ=/
+export SIM=$WS/l3l4cs/sim/
+export DCD_CAN=/mnt/apps/IPs/DCD/DCAN/v1.50/rtl/
+export IP2=default_IP2
+export IP3=default_IP3
+export IP4=default_IP4
+export IP5=default_IP5

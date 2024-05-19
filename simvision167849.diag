@@ -1,0 +1,200 @@
+*** Message Type: info ***
+When: Wed Dec 20 03:27:37 PM IST 2023
+SimVision started.
+Version: TOOL:  simvision(64)   23.03-s004
+User: edens
+Host: localhost
+Platform: Linux/x86_64/3.10.0-1160.62.1.el7.x86_64
+Started: Wed Dec 20 03:27:37 PM IST 2023
+Command: /mnt/apps/cadence/XCELIUM2303/tools.lnx86/simvision/bin/64bit/simvision.exe -connect dc:localhost:48111 -64BIT -nocopyright
+Work Directory: /mnt/apps/myshare/edens/WS_l3l4cs0
+ 
+*** Message Type: info ***
+When: Wed Dec 20 03:27:39 PM IST 2023
+Create browser window: "Design Browser 1"
+ 
+*** Message Type: info ***
+When: Wed Dec 20 03:27:48 PM IST 2023
+Create console window: "Console"
+ 
+*** Message Type: info ***
+When: Wed Dec 20 03:27:53 PM IST 2023
+Connect to Simulator
+      Design: worklib.ready_rand_gen:sv
+   Languages: verilog assertion
+   Simulator: XM-Sim
+     Version: TOOL:        xmsim(64)       23.03-s004
+        User: edens
+        Host: localhost
+Time Started: Wed Dec 20 03:27:33 PM IST 2023
+  Process ID: 167373
+   Directory: /mnt/apps/myshare/edens/WS_l3l4cs0
+     Command: xrun -clean -uvm -64bit -unbuffered -timescale 1ns/1ps -sysv -access +rw -uvmhome CDNS-1.2 -f /mnt/apps/myshare/edens/WS_l3l4cs0/l3l4cs/dv/dfile/dfile_tb -logfile my_log__seed0.log +UVM_TESTNAME=l3l4cs_frames_no_vlan_ipv4_tcp_test /mnt/apps/myshare/edens/WS_l3l4cs0/l3l4cs/dv/tb/l3l4cs_tb.sv -gui -seed 0 -messages -linedebug -define SYNCHRONOUS_RESET +UVM_NO_SUMMARY +UVM_VERBOSITY=UVM_HIGH +UVM_TIMEOUT=78000000ns -warn_multiple_driver -status -define UVM_REPORT_DISABLE_FILE_LINE -coverage A
+
+ 
+*** Message Type: info ***
+When: Wed Dec 20 03:27:55 PM IST 2023
+Create utility window: "Properties"
+ 
+*** Message Type: info ***
+When: Wed Dec 20 03:28:00 PM IST 2023
+Create waveform window: "Waveform 1"
+ 
+*** Message Type: info ***
+When: Wed Dec 20 03:35:25 PM IST 2023
+Create source window: "Source Browser 1"
+ 
+*** Message Type: info ***
+When: Wed Dec 20 03:51:46 PM IST 2023
+Create watchwindow window: "Watch Window 1"
+ 
+*** Message Type: error ***
+When: Wed Dec 20 03:51:59 PM IST 2023
+no parent for handle "@public@407"
+    while executing
+"dac::parent $chkHdl"
+    (object "::.watchWindow0" method "::WatchWindow::saveToCommandScript" body line 57)
+    invoked from within
+"$window saveToCommandScript $fid"
+    ("foreach" body line 13)
+    invoked from within
+"foreach window [::windows getWindows $type -objects] {
+                  if {! [enabled windows $window] && !$autosaveFlag} {
+                       continue
+                   }
+              if {$first..."
+    ("foreach" body line 10)
+    invoked from within
+"foreach type [::windows getTypes -multi] {
+            # Skip any Expression Calc windows, since we do not have
+               # command language support for it.
+             if {$type..."
+    ("windows" arm line 2)
+    invoked from within
+"# Compiled -- no source code available
+error "called a copy of a compiled script""
+    (procedure "savescript::_save" line 1)
+    invoked from within
+"# Compiled -- no source code available
+error "called a copy of a compiled script""
+    (procedure "::savescript::autosave" line 1)
+    invoked from within
+"::savescript::autosave $filename"
+    (object "::application" method "::Application::auto-save" body line 18)
+    invoked from within
+"::application auto-save"
+    (in namespace inscope "::Application" script line 1)
+    invoked from within
+"namespace inscope ::Application {::application auto-save}"
+    ("after" script)
+ 
+*** Message Type: error ***
+When: Wed Dec 20 03:51:59 PM IST 2023
+no parent for handle "@public@407"
+    while executing
+"dac::parent $chkHdl"
+    (object "::.watchWindow0" method "::WatchWindow::saveToCommandScript" body line 57)
+    invoked from within
+"$window saveToCommandScript $fid"
+    ("foreach" body line 13)
+    invoked from within
+"foreach window [::windows getWindows $type -objects] {
+                  if {! [enabled windows $window] && !$autosaveFlag} {
+                       continue
+                   }
+              if {$first..."
+    ("foreach" body line 10)
+    invoked from within
+"foreach type [::windows getTypes -multi] {
+            # Skip any Expression Calc windows, since we do not have
+               # command language support for it.
+             if {$type..."
+    ("windows" arm line 2)
+    invoked from within
+"# Compiled -- no source code available
+error "called a copy of a compiled script""
+    (procedure "savescript::_save" line 1)
+    invoked from within
+"# Compiled -- no source code available
+error "called a copy of a compiled script""
+    (procedure "::savescript::autosave" line 1)
+    invoked from within
+"::savescript::autosave $filename"
+    (object "::application" method "::Application::auto-save" body line 18)
+    invoked from within
+"::application auto-save"
+    (in namespace inscope "::Application" script line 1)
+    invoked from within
+"namespace inscope ::Application {::application auto-save}"
+    ("after" script)
+ 
+*** Message Type: error ***
+When: Wed Dec 20 03:51:59 PM IST 2023
+no parent for handle "@public@407"
+    while executing
+"dac::parent $chkHdl"
+    (object "::.watchWindow0" method "::WatchWindow::saveToCommandScript" body line 57)
+    invoked from within
+"$window saveToCommandScript $fid"
+    ("foreach" body line 13)
+    invoked from within
+"foreach window [::windows getWindows $type -objects] {
+                  if {! [enabled windows $window] && !$autosaveFlag} {
+                       continue
+                   }
+              if {$first..."
+    ("foreach" body line 10)
+    invoked from within
+"foreach type [::windows getTypes -multi] {
+            # Skip any Expression Calc windows, since we do not have
+               # command language support for it.
+             if {$type..."
+    ("windows" arm line 2)
+    invoked from within
+"# Compiled -- no source code available
+error "called a copy of a compiled script""
+    (procedure "savescript::_save" line 1)
+    invoked from within
+"# Compiled -- no source code available
+error "called a copy of a compiled script""
+    (procedure "::savescript::autosave" line 1)
+    invoked from within
+"::savescript::autosave $filename"
+    (object "::application" method "::Application::auto-save" body line 18)
+    invoked from within
+"::application auto-save"
+    (in namespace inscope "::Application" script line 1)
+    invoked from within
+"namespace inscope ::Application {::application auto-save}"
+    ("after" script)
+ 
+*** Message Type: info ***
+When: Wed Dec 20 04:06:59 PM IST 2023
+Exit XM-Sim: user
+      Design: worklib.ready_rand_gen:sv
+   Languages: verilog assertion
+   Simulator: XM-Sim
+     Version: TOOL:        xmsim(64)       23.03-s004
+        User: edens
+        Host: localhost
+Time Started: Wed Dec 20 04:00:20 PM IST 2023
+  Process ID: 204708
+   Directory: /mnt/apps/myshare/edens/WS_l3l4cs0
+     Command: xrun -clean -uvm -64bit -unbuffered -timescale 1ns/1ps -sysv -access +rw -uvmhome CDNS-1.2 -f /mnt/apps/myshare/edens/WS_l3l4cs0/l3l4cs/dv/dfile/dfile_tb -logfile my_log__seed0.log +UVM_TESTNAME=l3l4cs_frames_no_vlan_ipv4_tcp_test /mnt/apps/myshare/edens/WS_l3l4cs0/l3l4cs/dv/tb/l3l4cs_tb.sv -gui -seed 0 -messages -linedebug -define SYNCHRONOUS_RESET +UVM_NO_SUMMARY +UVM_VERBOSITY=UVM_HIGH +UVM_TIMEOUT=78000000ns -warn_multiple_driver -status -define UVM_REPORT_DISABLE_FILE_LINE -coverage A -s
+
+ 
+*** Message Type: info ***
+When: Wed Dec 20 04:18:07 PM IST 2023
+Exit XM-Sim: user
+      Design: worklib.ready_rand_gen:sv
+   Languages: verilog assertion
+   Simulator: XM-Sim
+     Version: TOOL:        xmsim(64)       23.03-s004
+        User: edens
+        Host: localhost
+Time Started: Wed Dec 20 04:17:08 PM IST 2023
+  Process ID: 219959
+   Directory: /mnt/apps/myshare/edens/WS_l3l4cs0
+     Command: xrun -clean -uvm -64bit -unbuffered -timescale 1ns/1ps -sysv -access +rw -uvmhome CDNS-1.2 -f /mnt/apps/myshare/edens/WS_l3l4cs0/l3l4cs/dv/dfile/dfile_tb -logfile my_log__seed0.log +UVM_TESTNAME=l3l4cs_frames_no_vlan_ipv4_tcp_test /mnt/apps/myshare/edens/WS_l3l4cs0/l3l4cs/dv/tb/l3l4cs_tb.sv -gui -seed 0 -messages -linedebug -define SYNCHRONOUS_RESET +UVM_NO_SUMMARY +UVM_VERBOSITY=UVM_HIGH +UVM_TIMEOUT=78000000ns -warn_multiple_driver -status -define UVM_REPORT_DISABLE_FILE_LINE -coverage A -s
+
+ 

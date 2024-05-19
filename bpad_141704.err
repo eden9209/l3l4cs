@@ -1,0 +1,118 @@
+Operating system: Linux
+                  0.0.0 Linux 3.10.0-1160.62.1.el7.x86_64 #1 SMP Wed Mar 23 09:04:02 UTC 2022 x86_64
+CPU: amd64
+     family 6 model 85 stepping 7
+     1 CPU
+
+GPU: UNKNOWN
+
+Crash reason:  DUMP_REQUESTED
+Crash address: 0x7fb5ffd25406
+Process uptime: not available
+
+Thread 0 (crashed)
+ 0  libcbreakpad.so + 0x36406
+    rax = 0x0000000000000000   rdx = 0x0000000000000000
+    rcx = 0x00007fb5ffd23cb2   rbx = 0x00007fb5f871aea0
+    rsi = 0x0000000000000001   rdi = 0x00007fb5f871a828
+    rbp = 0x00007fb5f871ade0   rsp = 0x00007fb5f871a790
+     r8 = 0x0000000000000000    r9 = 0x0000000000000000
+    r10 = 0x0000000000000000   r11 = 0x0000000000000000
+    r12 = 0x0000000000000000   r13 = 0x00007fb5f871b198
+    r14 = 0x00007fb5f871ae20   r15 = 0x0000000000cfad4d
+    rip = 0x00007fb5ffd25406
+    Found by: given as instruction pointer in context
+ 1  libcbreakpad.so + 0x34672
+    rbp = 0x00007fb5f871af30   rsp = 0x00007fb5f871adf0
+    rip = 0x00007fb5ffd23672
+    Found by: previous frame's frame pointer
+
+Loaded modules:
+0x00400000 - 0x03136fff  xmsim  ???  (main)
+0x03138000 - 0x03342fff  xmsim  ???
+0x7fb5ef489000 - 0x7fb5ef4a3fff  libz_sh.so  ???
+0x7fb5ef4a4000 - 0x7fb5efaaafff  libucis.so  ???
+0x7fb5efac3000 - 0x7fb5efac9fff  gconv-modules.cache  ???
+0x7fb5f0fd5000 - 0x7fb5f0fe4fff  waves.dsn  ???
+0x7fb5f12eb000 - 0x7fb5f12fafff  xcelium.dsn  ???
+0x7fb5f17fd000 - 0x7fb5f1866fff  libuvmapi_sv.so  ???
+0x7fb5f1867000 - 0x7fb5f186afff  libuvmapi_sv.so  ???
+0x7fb5f186b000 - 0x7fb5f18e7fff  libuvmapi_generic.so  ???
+0x7fb5f23af000 - 0x7fb5f23b7fff  libxdt.so  ???
+0x7fb5f26be000 - 0x7fb5f26c3fff  libuvmdpi.so  ???
+0x7fb5f26c4000 - 0x7fb5f26c6fff  libuvmdpi.so  ???
+0x7fb5f26c7000 - 0x7fb5f26e8fff  libsdi2-sst2-nld.so  ???
+0x7fb5f26e9000 - 0x7fb5f275bfff  libdwapi.so  ???
+0x7fb5f275c000 - 0x7fb5f2760fff  libdwapi.so  ???
+0x7fb5f27e5000 - 0x7fb5f27f9fff  libz.so.1.2.7  ???
+0x7fb5f27fa000 - 0x7fb5f29fafff  libz.so.1.2.7  ???
+0x7fb5f29fb000 - 0x7fb5f2a01fff  librt-2.17.so  ???
+0x7fb5f2a02000 - 0x7fb5f2c02fff  librt-2.17.so  ???
+0x7fb5f2c03000 - 0x7fb5f3c4afff  librnc.so  ???
+0x7fb5f3c4b000 - 0x7fb5f3cdffff  librnc.so  ???
+0x7fb5f8765000 - 0x7fb5f891ffff  libStrapNC.so  ???
+0x7fb5f892b000 - 0x7fb5f89ddfff  libdcapi.so  ???
+0x7fb5f89de000 - 0x7fb5f89eafff  libdcapi.so  ???
+0x7fb5f89ec000 - 0x7fb5f9256fff  passwd  ???
+0x7fb5f9257000 - 0x7fb5f925efff  libnss_sss.so.2  ???
+0x7fb5f925f000 - 0x7fb5f945ffff  libnss_sss.so.2  ???
+0x7fb5f9460000 - 0x7fb5f946bfff  libnss_files-2.17.so  ???
+0x7fb5f946c000 - 0x7fb5f966cfff  libnss_files-2.17.so  ???
+0x7fb5f9678000 - 0x7fb5f9691fff  libsdi-verilog-nld.so  ???
+0x7fb5f9692000 - 0x7fb5ffbd4fff  locale-archive  ???
+0x7fb5ffc56000 - 0x7fb5ffceefff  libxmjudy.so.1.0.3  ???
+0x7fb5ffcef000 - 0x7fb5ffd53fff  libcbreakpad.so  ???  (WARNING: No symbols, libcbreakpad.so, 1A0F7F62185D2C02CF86A6E6B7CC82920)
+0x7fb5ffd54000 - 0x7fb5ffd58fff  libcbreakpad.so  ???
+0x7fb5ffd63000 - 0x7fb5fff26fff  libc-2.17.so  ???
+0x7fb5fff27000 - 0x7fb60012bfff  libc-2.17.so  ???
+0x7fb600131000 - 0x7fb60014afff  libgcc_s.so.1  ???
+0x7fb60014b000 - 0x7fb60024bfff  libm-2.17.so  ???
+0x7fb60024c000 - 0x7fb60044cfff  libm-2.17.so  ???
+0x7fb60044d000 - 0x7fb60044efff  libdl-2.17.so  ???
+0x7fb60044f000 - 0x7fb600650fff  libdl-2.17.so  ???
+0x7fb600651000 - 0x7fb600667fff  libpthread-2.17.so  ???
+0x7fb600668000 - 0x7fb600868fff  libpthread-2.17.so  ???
+0x7fb60086d000 - 0x7fb60088efff  ld-2.17.so  ???
+0x7fb600893000 - 0x7fb600a69fff  libstdc++.so.6.0.28  ???
+0x7fb600a74000 - 0x7fb600a78fff  _sv_export.so (deleted)  ???
+0x7fb600a79000 - 0x7fb600a80fff  libuvmpli.so  ???
+0x7fb600a81000 - 0x7fb600a8afff  libunicovdirmgr.so  ???
+0x7fb600a8e000 - 0x7fb600a8ffff  ld-2.17.so  ???
+0x7ffe9ebe1000 - 0x7ffe9ebe2fff  linux-gate.so  ???
+
+******BACKTRACE*****
+<unknown> (libcbreakpad.so) [0x7fb5ffd231a3]
+<unknown> (libcbreakpad.so) [0x7fb5ffd23630]
+vserror (xmsim) [0x1ada247]
+serror (xmsim) [0x1adbe75]
+sv_seghandler_aux (xmsim) [0xc66ff4]
+sv_seghandler (xmsim) [0xc675ed]
+<unknown> (libpthread.so.0) [0x7fb600660630]
+sss_load_trg_data (xmsim) [0xcfad4d]
+sss_trdrv_type (xmsim) [0xcf01b4]
+ssl_net_type (xmsim) [0xe05ac1]
+cov_tog_isvalid_net (xmsim) [0x14ddf8a]
+cov_tog_dump_vlog_helper (xmsim) [0x14ed8a8]
+cov_tog_dump (xmsim) [0x14efa39]
+cov_data_create_instance.part.0 (xmsim) [0x1532a49]
+sslu_traverse_scopes (xmsim) [0xea1147]
+traverseAllDut (xmsim) [0x150bc1c]
+cov_data_dump (xmsim) [0x1534b1f]
+cover_dump (xmsim) [0x7c1d30]
+nc_prepare_to_exit (xmsim) [0x6faa67]
+nc_fini0 (xmsim) [0x6fb180]
+Tcl_Exit (xmsim) [0x13ea384]
+exit_command (xmsim) [0x71dcb2]
+cmd_wrapper (xmsim) [0xb91c97]
+TclInvokeStringCommand (xmsim) [0x135c48b]
+TclNRRunCallbacks (xmsim) [0x13613d7]
+TclEvalEx (xmsim) [0x136363d]
+Tcl_EvalEx (xmsim) [0x1363dc3]
+Tcl_Eval (xmsim) [0x1363e0c]
+cmd_tcl_run (xmsim) [0xb9574c]
+xncmain (xmsim) [0x6f9c9f]
+ncmain (xmsim) [0x6f88c1]
+main (xmsim) [0x25228e3]
+<unknown> (libc.so.6) [0x7fb5ffd85555]
+_start (xmsim) [0x63efce]
+******BACKTRACE END*****

@@ -1,0 +1,24 @@
+//
+// File created by:  xrun
+// Do not modify this file
+//
+-RUNMODE
+-STATUS
+-I_INCDIR
+/mnt/apps/cadence/XCELIUM2303/tools/methodology/UVM/CDNS-1.1d/sv/src
+-DEFINE
+USE_PARAMETERIZED_WRAPPER
+-I_INCDIR
+/mnt/apps/cadence/XCELIUM2303/tools/methodology/UVM/CDNS-1.1d/additions/sv
+-UPDATE
+-CDSLIB
+/mnt/apps/myshare/edens/WS_l3l4cs0/l3l4cs/sim/COMP_DB/run.lnx8664.23.03.d/cdsrun.lib
+-HDLVAR
+/mnt/apps/myshare/edens/WS_l3l4cs0/l3l4cs/sim/COMP_DB/run.lnx8664.23.03.d/hdlrun.var
+-work
+worklib
+-UVMNOSINGLESTEP
+-define
+UVM_PLI
+/mnt/apps/cadence/XCELIUM2303/tools/methodology/UVM/CDNS-1.1d/sv/src/uvm_pkg.sv
+/mnt/apps/cadence/XCELIUM2303/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_uvm_pkg.sv

@@ -1,0 +1,425 @@
+csi-xmsim - CSI: Command line:
+xmsim
+    -f /mnt/apps/myshare/edens/WS_l3l4cs0/xcelium.d/run.lnx8664.23.03.d/vihardware_141704/xmsim.args
+        -INPUT @source /mnt/apps/cadence/XCELIUM2303/tools/methodology/UVM/CDNS-1.2/additions/sv/files/tcl/uvm_sim.tcl
+        +UVM_NO_SUMMARY
+        +UVM_VERBOSITY=UVM_HIGH
+        +UVM_TIMEOUT=78000000ns
+        +incdir+/mnt/apps/myshare/edens/WS_l3l4cs0/GK_IPs/verif/gk_base/
+        +incdir+/mnt/apps/myshare/edens/WS_l3l4cs0/GK_IPs/verif/gk_base/src/
+        +incdir+/mnt/apps/myshare/edens/WS_l3l4cs0/GK_IPs/verif/gk_base/src/agents/
+        +incdir+/mnt/apps/myshare/edens/WS_l3l4cs0/GK_IPs/verif/gk_base/src/
+        +incdir+/mnt/apps/myshare/edens/WS_l3l4cs0/GK_IPs/verif/ce_base/
+        +incdir+/mnt/apps/myshare/edens/WS_l3l4cs0/GK_IPs/verif/ce_base/src/
+        +incdir+/mnt/apps/myshare/edens/WS_l3l4cs0/GK_IPs/verif/ce_base/src/agents/
+        +incdir+/mnt/apps/myshare/edens/WS_l3l4cs0/GK_IPs/verif/gk_base/
+        +incdir+/mnt/apps/myshare/edens/WS_l3l4cs0/GK_IPs/verif/gk_base/src/
+        +incdir+/mnt/apps/myshare/edens/WS_l3l4cs0/GK_IPs/verif/gk_base/src/agents/
+        +incdir+/mnt/apps/myshare/edens/WS_l3l4cs0/GK_IPs/verif/gk_base/src/
+        +incdir+/mnt/apps/myshare/edens/WS_l3l4cs0/GK_IPs/verif/gk_axi_vip/
+        +incdir+/mnt/apps/myshare/edens/WS_l3l4cs0/GK_IPs/verif/axis_vip/
+        +incdir+/mnt/apps/myshare/edens/WS_l3l4cs0/GK_IPs/verif/eth_vip/
+        +incdir+/mnt/apps/myshare/edens/WS_l3l4cs0/GK_IPs/verif/eth_p_agent/
+        +incdir+/mnt/apps/myshare/edens/WS_l3l4cs0/GK_IPs/verif/gk_base/
+        +incdir+/mnt/apps/myshare/edens/WS_l3l4cs0/GK_IPs/verif/gk_base/src/
+        +incdir+/mnt/apps/myshare/edens/WS_l3l4cs0/GK_IPs/verif/gk_base/src/agents/
+        +incdir+/mnt/apps/myshare/edens/WS_l3l4cs0/GK_IPs/verif/gk_base/src/
+        +incdir+/mnt/apps/myshare/edens/WS_l3l4cs0/GK_IPs/verif/gk_axi_vip/
+        +incdir+/mnt/apps/myshare/edens/WS_l3l4cs0/GK_IPs/verif/axis_vip/
+        +incdir+/mnt/apps/myshare/edens/WS_l3l4cs0/GK_IPs/verif/axis_vwrp/
+        +incdir+/mnt/apps/myshare/edens/WS_l3l4cs0///l3l4cs/dv/tb
+        +incdir+/mnt/apps/myshare/edens/WS_l3l4cs0///l3l4cs/dv/src/
+        +incdir+/mnt/apps/myshare/edens/WS_l3l4cs0///l3l4cs/dv/src/agents/
+        +incdir+/mnt/apps/myshare/edens/WS_l3l4cs0///l3l4cs/dv/tests/
+        +incdir+/mnt/apps/myshare/edens/WS_l3l4cs0///l3l4cs/dv/tests/direct
+        +incdir+/mnt/apps/myshare/edens/WS_l3l4cs0///l3l4cs/dv/tests/random
+        +incdir+/mnt/apps/myshare/edens/WS_l3l4cs0///l3l4cs/dv/src/agents/l3l4cs_cs_agent
+        +incdir+/mnt/apps/myshare/edens/WS_l3l4cs0///l3l4cs/dv/src/agents/l3l4cs_axis_wrap
+        -uvmhome /mnt/apps/cadence/XCELIUM2303/tools/methodology/UVM/CDNS-1.2
+        -sv_lib /mnt/apps/cadence/XCELIUM2303/tools/methodology/UVM/CDNS-1.2/additions/sv/lib/64bit/libuvmpli.so
+        -UNBUFFERED
+        +UVM_TESTNAME=l3l4cs_frames_no_vlan_ipv4_tcp_test
+        -gui
+        -STATUS
+        -TCL
+        -COVOVERWRITE
+        -MESSAGES
+        -svseed 0
+        -sndynseed 0
+        -SV_LIB /mnt/apps/cadence/XCELIUM2303/tools/methodology/UVM/CDNS-1.2/additions/sv/lib/64bit/libuvmdpi.so
+        +EMGRLOG my_log__seed0.log
+        -XLSTIME 1702995665
+        -XLKEEP
+        -XLMODE ./xcelium.d/run.lnx8664.23.03.d
+        -RUNMODE
+        -CDSLIB ./xcelium.d/run.lnx8664.23.03.d/cds.lib
+        -HDLVAR ./xcelium.d/run.lnx8664.23.03.d/hdl.var
+        -XLNAME xrun
+        -XLVERSION TOOL:	xrun(64)	23.03-s004
+        -XLNAME ./xcelium.d/run.lnx8664.23.03.d/vihardware_141704
+    -CHECK_VERSION TOOL:	xrun(64)	23.03-s004
+    -LOG_FD 4
+    -LOG_FD_NAME my_log__seed0.log
+    -cmdnopsim
+    -runlock /mnt/apps/myshare/edens/WS_l3l4cs0/xcelium.d/run.lnx8664.23.03.d/.xmlib.lock
+    -runscratch /mnt/apps/myshare/edens/WS_l3l4cs0/xcelium.d/run.lnx8664.23.03.d/vihardware_141704
+
+csi-xmsim - CSI: *F,INTERR: INTERNAL EXCEPTION
+Observed simulation time : 0 FS + 0
+-----------------------------------------------------------------
+The tool has encountered an unexpected condition and must exit.
+Contact Cadence Design Systems customer support about this
+problem and provide enough information to help us reproduce it,
+including the logfile that contains this error message.
+  TOOL:	xmsim(64)	23.03-s004
+  HOSTNAME: vihardware
+  OPERATING SYSTEM: Linux 3.10.0-1160.62.1.el7.x86_64 #1 SMP Wed Mar 23 09:04:02 UTC 2022 x86_64
+  MESSAGE: sv_seghandler - trapno -1 addr(0x30)
+-----------------------------------------------------------------
+
+csi-xmsim - CSI: Cadence Support Investigation, recording details
+External Code in function: <unavailable> offset -65486
+External Code in function: <unavailable> offset -65508
+External Code in function: <unavailable> offset -65536
+Verilog Syntax Tree: package declaration (VST_D_PACKAGE) in verilog_package worklib.eth_p_agent_pkg:sv (VST)
+	File: /mnt/apps/myshare/edens/WS_l3l4cs0/GK_IPs/verif/eth_p_agent/eth_p_agent_pkg.sv, line 18, position 27
+	Scope: eth_p_agent_pkg
+	Decompile: eth_p_agent_pkg
+	Source  :     package  eth_p_agent_pkg;
+	Position:                            ^
+Verilog Syntax Tree: module declaration (VST_D_MODULE) in module worklib.ready_gen:sv (VST)
+	File: /mnt/apps/myshare/edens/WS_l3l4cs0/GK_IPs/verif/gk_base/src/gk_base_modules.sv, line 20, position 19
+	Scope: ready_gen
+	Decompile: ready_gen#(CYC)
+	Source  :     module ready_gen#(
+	Position:                    ^
+Verilog Syntax Tree: overlay table (VST_OVERLAY_TABLE) in module worklib.ready_gen:sv (SIG) <0x0fc7179c>
+	Decompile: ready_gen#(CYC)
+Verilog Syntax Tree: wire declaration (VST_D_WIRE) in module worklib.ready_gen:sv (VST)
+	File: /mnt/apps/myshare/edens/WS_l3l4cs0/GK_IPs/verif/gk_base/src/gk_base_modules.sv, line 22, position 19
+	Scope: ready_gen
+	Decompile: logic clk
+	Source  :     input  logic clk,
+	Position:                    ^
+Intermediate File: data block (IF_BLK) in snapshot worklib.ready_gen:sv (SSS)
+Simulator Snap Shot: tog reg cov (SSS_COV_TOG_REG) in snapshot worklib.ready_gen:sv (SSS)
+Verilog Syntax Tree: logic type (VST_T_LOGIC) in module worklib.ready_gen:sv (VST)
+	Decompile: logic
+Intermediate File: ffstructa (IF_FFSTRUCTA) in snapshot worklib.ready_gen:sv (SSS)
+Simulator Snap Shot: gd (SSS_GD) in snapshot worklib.ready_gen:sv (SSS)
+Verilog Syntax Tree: if statement (VST_S_IF) in module worklib.ready_gen:sv (VST)
+	File: /mnt/apps/myshare/edens/WS_l3l4cs0/GK_IPs/verif/gk_base/src/gk_base_modules.sv, line 26, position 9
+	Scope: ready_gen.unmblk1
+	Decompile: ($value$plusargs() && (cyc > 0))
+	Source  :         if($value$plusargs("TOGGLE_READY=%0d",cyc) && cyc>0)begin
+	Position:          ^
+Verilog Syntax Tree: blocking assignment statement (VST_S_BLOCKING_ASSIGNMENT) in module worklib.ready_gen:sv (VST)
+	File: /mnt/apps/myshare/edens/WS_l3l4cs0/GK_IPs/verif/gk_base/src/gk_base_modules.sv, line 36, position 17
+	Scope: ready_gen.unmblk1
+	Decompile: 1
+	Source  :             ready=1;
+	Position:                  ^
+Verilog Syntax Tree: sequential block statement (VST_S_SEQ_BLOCK) in module worklib.ready_gen:sv (VST)
+	File: /mnt/apps/myshare/edens/WS_l3l4cs0/GK_IPs/verif/gk_base/src/gk_base_modules.sv, line 35, position 17
+	Scope: ready_gen.unmblk1
+	Source  :         else begin
+	Position:                  ^
+Verilog Syntax Tree: number expression (VST_E_NUMBER) in module worklib.ready_gen:sv (VST)
+	File: /mnt/apps/myshare/edens/WS_l3l4cs0/GK_IPs/verif/gk_base/src/gk_base_modules.sv, line 36, position 18
+	Decompile: 1
+	Source  :             ready=1;
+	Position:                   ^
+Intermediate File: root (IF_ROOT) in module worklib.ready_gen:sv (VST)
+Verilog Syntax Tree: number expression (VST_E_NUMBER) in module worklib.ready_gen:sv (VST)
+	File: /mnt/apps/myshare/edens/WS_l3l4cs0/GK_IPs/verif/gk_base/src/gk_base_modules.sv, line 27, position 18
+	Decompile: 0
+	Source  :             ready=0;
+	Position:                   ^
+Error: Error processing stack frame(11) - skipping rest of frame!
+Error: Error processing stack frame(12) - skipping rest of frame!
+Verilog Syntax Tree: nonblocking assignment statement (VST_S_NONBLOCKING_ASSIGNMENT) in module worklib.L3L4CS:sv (VST)
+	File: /mnt/apps/myshare/edens/WS_l3l4cs0/l3l4cs/rtl/src/L3L4CS.sv, line 447, position 35
+	Scope: L3L4CS
+	Decompile: st_wait_trig
+	Source  :                     l3l4_carry_sm <= st_wait_trig;  
+	Position:                                    ^
+Verilog Syntax Tree: overlay table (VST_OVERLAY_TABLE) in module worklib.L3L4CS:sv (SIG) <0x4bdc6bc6>
+	Decompile: L3L4CS#(LATENCY,TCP)
+Verilog Syntax Tree: logical equality expression (VST_E_LOGICAL_EQUALITY) in module worklib.L3L4CS:sv (VST)
+	File: /mnt/apps/myshare/edens/WS_l3l4cs0/l3l4cs/rtl/src/L3L4CS.sv, line 435, position 159
+	Decompile: (ipv6_flag_carry == 1)
+	Source  :                     if  (((ipv4_flag_carry == 1) && (~({12'd0,l3_checksum_carry_accum[19:16]} + l3_checksum_carry_accum[15:0]) == 16'd0)) || (ipv6_flag_carry == 1)) begin
+	Position:                                                                                                                                                                ^
+Verilog Syntax Tree: cov data overlay table (VST_OT_COV_DATA) in module worklib.l3l4cs_tb:sv (SIG) <0x5f6e862d>
+	Decompile: unable to decompile type 1017
+Verilog Syntax Tree: null statement (VST_S_NULL) in module worklib.ready_gen:sv (VST)
+	File: /mnt/apps/myshare/edens/WS_l3l4cs0/GK_IPs/verif/gk_base/src/gk_base_modules.sv, line 29, position 45
+	Scope: ready_gen.unmblk1
+	Decompile: null statement
+	Source  :                 repeat(cyc-1) @ (posedge clk);
+	Position:                                              ^
+Verilog Syntax Tree: logic type (VST_T_LOGIC) in module worklib.L3L4CS:sv (VST)
+	Decompile: logic
+Verilog Syntax Tree: part select expression (VST_E_PART_SELECT) in module worklib.L3L4CS:sv (VST)
+	File: /mnt/apps/myshare/edens/WS_l3l4cs0/l3l4cs/rtl/src/L3L4CS.sv, line 435, position 84
+	Scope: L3L4CS
+	Decompile: l3_checksum_carry_accum[19:16]
+	Source  :                     if  (((ipv4_flag_carry == 1) && (~({12'd0,l3_checksum_carry_accum[19:16]} + l3_checksum_carry_accum[15:0]) == 16'd0)) || (ipv6_flag_carry == 1)) begin
+	Position:                                                                                     ^
+Verilog Syntax Tree: register declaration (VST_D_REG) in module worklib.L3L4CS:sv (VST)
+	File: /mnt/apps/myshare/edens/WS_l3l4cs0/l3l4cs/rtl/src/L3L4CS.sv, line 37, position 51
+	Scope: L3L4CS
+	Decompile: logic l3_checksum_carry_accum
+	Source  : logic    [19:0]              l3_checksum_carry_accum;
+	Position:                                                    ^
+Verilog Syntax Tree: if statement (VST_S_IF) in module worklib.L3L4CS:sv (VST)
+	File: /mnt/apps/myshare/edens/WS_l3l4cs0/l3l4cs/rtl/src/L3L4CS.sv, line 365, position 21
+	Scope: L3L4CS
+	Decompile: (set_output == 1)
+	Source  :                     if (set_output == 1) begin                                                         // add carry of accumulation
+	Position:                      ^
+Verilog Syntax Tree: identifier expression (VST_E_IDENTIFIER) in module worklib.L3L4CS:sv (VST)
+	File: /mnt/apps/myshare/edens/WS_l3l4cs0/l3l4cs/rtl/src/L3L4CS.sv, line 264, position 24
+	Scope: L3L4CS
+	Decompile: st_l4
+	Source  :                     st_l4: begin
+	Position:                         ^
+Intermediate File: root (IF_ROOT) in module worklib.L3L4CS:sv (VST)
+Verilog Syntax Tree: sequential block statement (VST_S_SEQ_BLOCK) in module worklib.L3L4CS:sv (VST)
+	File: /mnt/apps/myshare/edens/WS_l3l4cs0/l3l4cs/rtl/src/L3L4CS.sv, line 264, position 31
+	Scope: L3L4CS
+	Source  :                     st_l4: begin
+	Position:                                ^
+Verilog Syntax Tree: item case (VST_CASE_ITEM) in module worklib.L3L4CS:sv (VST)
+	Decompile: unable to decompile type 675
+Verilog Syntax Tree: if statement (VST_S_IF) in module worklib.L3L4CS:sv (VST)
+	File: /mnt/apps/myshare/edens/WS_l3l4cs0/l3l4cs/rtl/src/L3L4CS.sv, line 375, position 25
+	Scope: L3L4CS
+	Decompile: (ipv4_flag == 1)
+	Source  :                         if (ipv4_flag == 1) begin
+	Position:                          ^
+Verilog Syntax Tree: identifier expression (VST_E_IDENTIFIER) in module worklib.L3L4CS:sv (VST)
+	File: /mnt/apps/myshare/edens/WS_l3l4cs0/l3l4cs/rtl/src/L3L4CS.sv, line 447, position 48
+	Scope: L3L4CS
+	Decompile: st_wait_trig
+	Source  :                     l3l4_carry_sm <= st_wait_trig;  
+	Position:                                                 ^
+Verilog Syntax Tree: if statement (VST_S_IF) in module worklib.L3L4CS:sv (VST)
+	File: /mnt/apps/myshare/edens/WS_l3l4cs0/l3l4cs/rtl/src/L3L4CS.sv, line 438, position 26
+	Scope: L3L4CS
+	Decompile: (ipv4_flag_carry == 1)
+	Source  :                     else if (ipv4_flag_carry == 1) begin                                             // IPv4 with checksum not correct
+	Position:                           ^
+Verilog Syntax Tree: logical equality expression (VST_E_LOGICAL_EQUALITY) in module worklib.L3L4CS:sv (VST)
+	File: /mnt/apps/myshare/edens/WS_l3l4cs0/l3l4cs/rtl/src/L3L4CS.sv, line 438, position 46
+	Decompile: (ipv4_flag_carry == 1)
+	Source  :                     else if (ipv4_flag_carry == 1) begin                                             // IPv4 with checksum not correct
+	Position:                                               ^
+Verilog Syntax Tree: number expression (VST_E_NUMBER) in module worklib.L3L4CS:sv (VST)
+	File: /mnt/apps/myshare/edens/WS_l3l4cs0/l3l4cs/rtl/src/L3L4CS.sv, line 438, position 48
+	Decompile: 1
+	Source  :                     else if (ipv4_flag_carry == 1) begin                                             // IPv4 with checksum not correct
+	Position:                                                 ^
+External Code in function: <unavailable> offset -65520
+Verilog Syntax Tree: identifier expression (VST_E_IDENTIFIER) in module worklib.L3L4CS:sv (VST)
+	File: /mnt/apps/myshare/edens/WS_l3l4cs0/l3l4cs/rtl/src/L3L4CS.sv, line 438, position 43
+	Scope: L3L4CS
+	Decompile: ipv4_flag_carry
+	Source  :                     else if (ipv4_flag_carry == 1) begin                                             // IPv4 with checksum not correct
+	Position:                                            ^
+Verilog Syntax Tree: register declaration (VST_D_REG) in module worklib.L3L4CS:sv (VST)
+	File: /mnt/apps/myshare/edens/WS_l3l4cs0/l3l4cs/rtl/src/L3L4CS.sv, line 49, position 43
+	Scope: L3L4CS
+	Decompile: logic ipv4_flag_carry
+	Source  : logic                        ipv4_flag_carry;
+	Position:                                            ^
+Verilog Syntax Tree: part select expression (VST_E_PART_SELECT) in module worklib.L3L4CS:sv (VST)
+	File: /mnt/apps/myshare/edens/WS_l3l4cs0/l3l4cs/rtl/src/L3L4CS.sv, line 367, position 108
+	Scope: L3L4CS
+	Decompile: l4_checksum_accum[15:0]
+	Source  :                         l4_checksum_carry_accum <= {16'd0,l4_checksum_accum[19:16]} + {4'd0,l4_checksum_accum[15:0]};    
+	Position:                                                                                                             ^
+Verilog Syntax Tree: indexed vector type (VST_T_INDEXED_VEC) in module worklib.L3L4CS:sv (VST)
+	Scope: L3L4CS
+	Decompile: logic
+Verilog Syntax Tree: identifier expression (VST_E_IDENTIFIER) in module worklib.L3L4CS:sv (VST)
+	File: /mnt/apps/myshare/edens/WS_l3l4cs0/l3l4cs/rtl/src/L3L4CS.sv, line 387, position 75
+	Scope: L3L4CS
+	Decompile: udp_checksum_count
+	Source  :                         if ((udp_checksum_exist == 0) && (udp_checksum_count == 2) && (ipv4_flag == 1))begin  
+	Position:                                                                            ^
+Verilog Syntax Tree: register declaration (VST_D_REG) in module worklib.L3L4CS:sv (VST)
+	File: /mnt/apps/myshare/edens/WS_l3l4cs0/l3l4cs/rtl/src/L3L4CS.sv, line 40, position 46
+	Scope: L3L4CS
+	Decompile: logic udp_checksum_count
+	Source  : logic    [1:0]               udp_checksum_count;
+	Position:                                               ^
+Verilog Syntax Tree: range const value (VST_VALUE_RANGE_CONST) in module worklib.L3L4CS:sv (VST)
+	Decompile: unable to decompile type 761
+Verilog Syntax Tree: if statement (VST_S_IF) in module worklib.L3L4CS:sv (VST)
+	File: /mnt/apps/myshare/edens/WS_l3l4cs0/l3l4cs/rtl/src/L3L4CS.sv, line 267, position 25
+	Scope: L3L4CS
+	Decompile: (markers_i.udp_checksum_marker == 1)
+	Source  :                         if (markers_i.udp_checksum_marker == 1) begin 
+	Position:                          ^
+Verilog Syntax Tree: if statement (VST_S_IF) in module worklib.L3L4CS:sv (VST)
+	File: /mnt/apps/myshare/edens/WS_l3l4cs0/l3l4cs/rtl/src/L3L4CS.sv, line 278, position 29
+	Scope: L3L4CS
+	Decompile: (l4_hdr_payload == 1)
+	Source  :                             if (l4_hdr_payload == 1) begin                                             // frame ended with no L2 padding (>= 64 byte)
+	Position:                              ^
+Error: Error processing stack frame(16) - skipping rest of frame!
+Verilog Syntax Tree: member select expression (VST_E_MEMBER_SELECT) in module worklib.L3L4CS:sv (VST)
+	File: /mnt/apps/myshare/edens/WS_l3l4cs0/l3l4cs/rtl/src/L3L4CS.sv, line 235, position 95
+	Scope: L3L4CS
+	Decompile: markers_i.tcp_marker
+	Source  :                             if ((markers_i.udp_source_port_marker == 1) || (markers_i.tcp_marker == 1)) begin      // add carry to accumulator before moving to next state
+	Position:                                                                                                ^
+Verilog Syntax Tree: overlay table (VST_OVERLAY_TABLE) in verilog_package worklib.l4_marker_pkg:sv (SIG) <0x0758a85e>
+	Decompile: l4_marker_pkg
+Verilog Syntax Tree: member declaration (VST_D_MEMBER) in verilog_package worklib.l4_marker_pkg:sv (VST)
+	File: /mnt/apps/myshare/edens/WS_l3l4cs0/l3l4cs/rtl/src/l4_marker_pkg.sv, line 61, position 27
+	Scope: l4_marker_pkg
+	Decompile: unable to decompile type 755
+	Source  :             logic tcp_marker;
+	Position:                            ^
+Verilog Syntax Tree: identifier type (VST_T_IDENTIFIER) in module worklib.L3L4CS:sv (VST)
+	File: /mnt/apps/myshare/edens/WS_l3l4cs0/l3l4cs/rtl/src/L3L4CS.sv, line 11, position 21
+	Scope: L3L4CS
+	Decompile: struct{ logic destination_mac_marker; logic source_mac_marker; logic vlan_marker; logic ethertype_marker; logic arp_marker; logic ptp_marker; logic redundancy_tag_marker; logic ipv4_marker; logic total_length_ipv4_marker; logic protocol_ipv4_marker; logic
+	Source  :     input    markers_t         markers_i,                    
+	Position:                      ^
+Verilog Syntax Tree: referral into struct (VST_R_INTO_STRUCT) in module worklib.L3L4CS:sv (VST)
+	Scope: l4_marker_pkg
+	Decompile: unable to decompile type 755
+Verilog Syntax Tree: logic type (VST_T_LOGIC) in verilog_package worklib.l4_marker_pkg:sv (VST)
+	Decompile: logic
+Verilog Syntax Tree: package referral (VST_R_PACKAGE) in module worklib.L3L4CS:sv (VST)
+	Scope: l4_marker_pkg
+	Decompile: struct{ logic destination_mac_marker; logic source_mac_marker; logic vlan_marker; logic ethertype_marker; logic arp_marker; logic ptp_marker; logic redundancy_tag_marker; logic ipv4_marker; logic total_length_ipv4_marker; logic protocol_ipv4_marker; logic
+Verilog Syntax Tree: register declaration (VST_D_REG) in module worklib.L3L4CS:sv (VST)
+	File: /mnt/apps/myshare/edens/WS_l3l4cs0/l3l4cs/rtl/src/L3L4CS.sv, line 11, position 39
+	Scope: L3L4CS
+	Decompile: struct{ logic destination_mac_marker; logic source_mac_marker; logic vlan_marker; logic ethertype_marker; logic arp_marker; logic ptp_marker; logic redundancy_tag_marker; logic ipv4_marker; logic total_length_ipv4_marker; logic protocol_ipv4_marker; logic
+	Source  :     input    markers_t         markers_i,                    
+	Position:                                        ^
+Verilog Syntax Tree: member select expression (VST_E_MEMBER_SELECT) in module worklib.L3L4CS:sv (VST)
+	File: /mnt/apps/myshare/edens/WS_l3l4cs0/l3l4cs/rtl/src/L3L4CS.sv, line 185, position 95
+	Scope: L3L4CS
+	Decompile: markers_i.tcp_marker
+	Source  :                             if ((markers_i.udp_source_port_marker == 0) && (markers_i.tcp_marker == 0) && (markers_i.passthrough_marker == 0)) begin
+	Position:                                                                                                ^
+Verilog Syntax Tree: if statement (VST_S_IF) in module worklib.L3L4CS:sv (VST)
+	File: /mnt/apps/myshare/edens/WS_l3l4cs0/l3l4cs/rtl/src/L3L4CS.sv, line 269, position 29
+	Scope: L3L4CS
+	Decompile: (as.tdata != 0)
+	Source  :                             if (as.tdata != 0) begin                             
+	Position:                              ^
+Verilog Syntax Tree: nonblocking assignment statement (VST_S_NONBLOCKING_ASSIGNMENT) in module worklib.L3L4CS:sv (VST)
+	File: /mnt/apps/myshare/edens/WS_l3l4cs0/l3l4cs/rtl/src/L3L4CS.sv, line 442, position 39
+	Scope: L3L4CS
+	Decompile: 2'b00
+	Source  :                         l3_checksum_o <= 2'b00;                                                      // non IP packet
+	Position:                                        ^
+Verilog Syntax Tree: if statement (VST_S_IF) in module worklib.L3L4CS:sv (VST)
+	File: /mnt/apps/myshare/edens/WS_l3l4cs0/l3l4cs/rtl/src/L3L4CS.sv, line 292, position 29
+	Scope: L3L4CS
+	Decompile: (l4_hdr_payload == 1)
+	Source  :                             if (l4_hdr_payload == 1) begin                                             // accumulate L4 2-octet pairs 
+	Position:                              ^
+Verilog Syntax Tree: if statement (VST_S_IF) in module worklib.L3L4CS:sv (VST)
+	File: /mnt/apps/myshare/edens/WS_l3l4cs0/l3l4cs/rtl/src/L3L4CS.sv, line 304, position 38
+	Scope: L3L4CS
+	Decompile: (l4_hdr_payload_s == 1)
+	Source  :                             end else if (l4_hdr_payload_s == 1) begin                                  // start of L2 padding (< 64 bytes)
+	Position:                                       ^
+Verilog Syntax Tree: number expression (VST_E_NUMBER) in module worklib.L3L4CS:sv (VST)
+	File: /mnt/apps/myshare/edens/WS_l3l4cs0/l3l4cs/rtl/src/L3L4CS.sv, line 442, position 41
+	Decompile: 2'b00
+	Source  :                         l3_checksum_o <= 2'b00;                                                      // non IP packet
+	Position:                                          ^
+Verilog Syntax Tree: overlay table (VST_OVERLAY_TABLE) in interface worklib.eth_vip_if:sv (SIG) <0x420f64d3>
+	Decompile: uvm_pkg::uvm_resource#(T)
+Verilog Syntax Tree: logical equality expression (VST_E_LOGICAL_EQUALITY) in module worklib.L3L4CS:sv (VST)
+	File: /mnt/apps/myshare/edens/WS_l3l4cs0/l3l4cs/rtl/src/L3L4CS.sv, line 304, position 59
+	Decompile: (l4_hdr_payload_s == 1)
+	Source  :                             end else if (l4_hdr_payload_s == 1) begin                                  // start of L2 padding (< 64 bytes)
+	Position:                                                            ^
+Verilog Syntax Tree: number expression (VST_E_NUMBER) in module worklib.L3L4CS:sv (VST)
+	File: /mnt/apps/myshare/edens/WS_l3l4cs0/l3l4cs/rtl/src/L3L4CS.sv, line 304, position 61
+	Decompile: 1
+	Source  :                             end else if (l4_hdr_payload_s == 1) begin                                  // start of L2 padding (< 64 bytes)
+	Position:                                                              ^
+Verilog Syntax Tree: unknown expression (VST_E_UNKNOWN) in module worklib.L3L4CS:sv (VST)
+	File: /mnt/apps/myshare/edens/WS_l3l4cs0/l3l4cs/rtl/src/L3L4CS.sv, line 250, position 82
+	Scope: L3L4CS
+	Decompile: as.tdata
+	Source  :                             l4_checksum_accum <= l4_checksum_accum + {8'd0,as.tdata};                           
+	Position:                                                                                   ^
+Verilog Syntax Tree: identifier expression (VST_E_IDENTIFIER) in module worklib.L3L4CS:sv (VST)
+	File: /mnt/apps/myshare/edens/WS_l3l4cs0/l3l4cs/rtl/src/L3L4CS.sv, line 293, position 60
+	Scope: L3L4CS
+	Decompile: padding_flag
+	Source  :                                 padding_flag <= !padding_flag;                                        
+	Position:                                                             ^
+Verilog Syntax Tree: number expression (VST_E_NUMBER) in module worklib.L3L4CS:sv (VST)
+	File: /mnt/apps/myshare/edens/WS_l3l4cs0/l3l4cs/rtl/src/L3L4CS.sv, line 435, position 123
+	Decompile: 0
+	Source  :                     if  (((ipv4_flag_carry == 1) && (~({12'd0,l3_checksum_carry_accum[19:16]} + l3_checksum_carry_accum[15:0]) == 16'd0)) || (ipv6_flag_carry == 1)) begin
+	Position:                                                                                                                            ^
+Verilog Syntax Tree: register declaration (VST_D_REG) in module worklib.L3L4CS:sv (VST)
+	File: /mnt/apps/myshare/edens/WS_l3l4cs0/l3l4cs/rtl/src/L3L4CS.sv, line 41, position 40
+	Scope: L3L4CS
+	Decompile: logic padding_flag
+	Source  : logic                        padding_flag;
+	Position:                                         ^
+Verilog Syntax Tree: identifier expression (VST_E_IDENTIFIER) in module worklib.L3L4CS:sv (VST)
+	File: /mnt/apps/myshare/edens/WS_l3l4cs0/l3l4cs/rtl/src/L3L4CS.sv, line 304, position 56
+	Scope: L3L4CS
+	Decompile: l4_hdr_payload_s
+	Source  :                             end else if (l4_hdr_payload_s == 1) begin                                  // start of L2 padding (< 64 bytes)
+	Position:                                                         ^
+Verilog Syntax Tree: part select expression (VST_E_PART_SELECT) in module worklib.L3L4CS:sv (VST)
+	File: /mnt/apps/myshare/edens/WS_l3l4cs0/l3l4cs/rtl/src/L3L4CS.sv, line 236, position 110
+	Scope: L3L4CS
+	Decompile: l4_checksum_accum[15:0]
+	Source  :                                 l4_checksum_accum <= {16'd0,l4_checksum_accum[19:16]} + {4'd0,l4_checksum_accum[15:0]}; 
+	Position:                                                                                                               ^
+Verilog Syntax Tree: register declaration (VST_D_REG) in module worklib.L3L4CS:sv (VST)
+	File: /mnt/apps/myshare/edens/WS_l3l4cs0/l3l4cs/rtl/src/L3L4CS.sv, line 42, position 46
+	Scope: L3L4CS
+	Decompile: logic ethertype_marker_s
+	Source  : logic                        ethertype_marker_s;
+	Position:                                               ^
+Verilog Syntax Tree: register declaration (VST_D_REG) in module worklib.L3L4CS:sv (VST)
+	File: /mnt/apps/myshare/edens/WS_l3l4cs0/l3l4cs/rtl/src/L3L4CS.sv, line 55, position 36
+	Decompile: Error: csi_sighandler received SIGSEGV
+	Source  : logic    [7:0]               tdata_sr[LATENCY-1:0];
+	Position:                                     ^
+Verilog Syntax Tree: sequential block statement (VST_S_SEQ_BLOCK) in module worklib.L3L4CS:sv (VST)
+	File: /mnt/apps/myshare/edens/WS_l3l4cs0/l3l4cs/rtl/src/L3L4CS.sv, line 304, position 68
+	Scope: L3L4CS
+	Source  :                             end else if (l4_hdr_payload_s == 1) begin                                  // start of L2 padding (< 64 bytes)
+	Position:                                                                     ^
+Verilog Syntax Tree: if statement (VST_S_IF) in module worklib.L3L4CS:sv (VST)
+	File: /mnt/apps/myshare/edens/WS_l3l4cs0/l3l4cs/rtl/src/L3L4CS.sv, line 305, position 33
+	Scope: L3L4CS
+	Decompile: (padding_flag == 0)
+	Source  :                                 if (padding_flag == 0) begin                                           // odd number of octets in L4 so do 2-octet pad (ignore last invert of padding flag)
+	Position:                                  ^
+Error: Error processing stack frame(19) - skipping rest of frame!
+Error: Error processing stack frame(20) - skipping rest of frame!
+User Code in function: <unavailable> offset 63997567
+Verilog Syntax Tree: number expression (VST_E_NUMBER) in module worklib.L3L4CS:sv (VST)
+	File: /mnt/apps/myshare/edens/WS_l3l4cs0/l3l4cs/rtl/src/L3L4CS.sv, line 306, position 95
+	Decompile: 8'd0
+	Source  :                                     l4_checksum_accum <= l4_checksum_accum + {4'd0,tdata_sr[0],8'd0};
+	Position:                                                                                                ^
+Verilog Syntax Tree: number expression (VST_E_NUMBER) in module worklib.L3L4CS:sv (VST)
+	File: /mnt/apps/myshare/edens/WS_l3l4cs0/l3l4cs/rtl/src/L3L4CS.sv, line 202, position 47
+	Decompile: 0
+	Source  :                                 if (({tdata_sr[0],as.tdata}) < ({ip_header_length,2'b0})) begin   
+	Position:                                                ^
+External Code in function: <unavailable> offset -64558
+External Code in function: <unavailable> offset -65504
+csi-xmsim - CSI: investigation complete took 0.065 secs, send this file to Cadence Support

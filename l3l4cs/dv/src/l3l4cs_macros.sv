@@ -1,0 +1,4 @@
+`define L3L4CS_CHILD_RTL_PATH       `L3L4CS_TOP.exp_gen[L3L4CS_CHILD_IDX].l3l4cs
+`define L3L4CS_CHILD_VIF_PATH       `L3L4CS_TH.child[L3L4CS_CHILD_IDX]
+
+

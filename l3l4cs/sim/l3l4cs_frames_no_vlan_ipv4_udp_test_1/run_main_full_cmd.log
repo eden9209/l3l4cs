@@ -1,0 +1,18 @@
+xrun
+-top l3l4cs_tb 
+-f /mnt/apps/myshare/edens/WS_l3l4cs0///l3l4cs/dv/dfile/dfile_tb /mnt/apps/myshare/edens/WS_l3l4cs0///l3l4cs/dv/tb/l3l4cs_tb.sv
+-xmlibdirname /mnt/apps/myshare/edens/WS_l3l4cs0/l3l4cs/sim//COMP_DB
+-logfile run_main.log
++UVM_VERBOSITY=UVM_HIGH 
++ITEMS_NUM=10 
+-input /mnt/apps/myshare/edens/WS_l3l4cs0///l3l4cs/dv/tb/l3l4cs_tb.tcl
+-messages
+-64bit
+-access
++rw
+-unbuffered
+-sysv
+-status 
+-seed 1
++UVM_TIMEOUT=80000000,YES
++UVM_TESTNAME=l3l4cs_frames_no_vlan_ipv4_udp_test 

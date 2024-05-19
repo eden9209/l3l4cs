@@ -1,0 +1,28 @@
+
+
+
+/////////////////////////////////////////
+// BASE CLASSES
+/////////////////////////////////////////
+-f $WS/GK_IPs/verif/ce_base/dfile/dfile
+-f $WS/GK_IPs/verif/gk_base/dfile/dfile
+-f $WS/GK_IPs/verif/axis_vip/dfile
+-f $WS/GK_IPs/verif/gk_axi_vip/dfile
+-f $WS/GK_IPs/verif/eth_vip/dfile
+
+
+/////////////////////////////////////////
+// DESIGN  
+/////////////////////////////////////////
+-f $WS/$PROJ/l3l4cs/rtl/dfile/dfile
+-f $WS/$PROJ/l3l4cs/rtl/dfile/dfile_tb
+
+
+/////////////////////////////////////////
+// Verification  
+/////////////////////////////////////////
+-f $WS/$PROJ/l3l4cs/dv/dfile/dfile
+
+
+
+

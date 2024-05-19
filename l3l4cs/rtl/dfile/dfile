@@ -1,0 +1,7 @@
+// DESIGN  
+/////////////////////////////////////////
+//TODO  add you design dfile here
+$WS/$PROJ/l3l4cs/rtl/src/axi_stream_if.sv
+$WS/$PROJ/l3l4cs/rtl/src/l4_marker_pkg.sv
+$WS/$PROJ/l3l4cs/rtl/src/L3L4CS.sv
+

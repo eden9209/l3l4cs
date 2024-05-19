@@ -1,0 +1,45 @@
+
+
+-f $WS/GK_IPs/verif/axis_vwrp/dfile
+
+
++incdir+$WS/$PROJ/l3l4cs/dv/tb
++incdir+$WS/$PROJ/l3l4cs/dv/src/     
++incdir+$WS/$PROJ/l3l4cs/dv/src/agents/   
++incdir+$WS/$PROJ/l3l4cs/dv/tests/   
++incdir+$WS/$PROJ/l3l4cs/dv/tests/direct   
++incdir+$WS/$PROJ/l3l4cs/dv/tests/random   
++incdir+$WS/$PROJ/l3l4cs/dv/src/agents/l3l4cs_cs_agent
++incdir+$WS/$PROJ/l3l4cs/dv/src/agents/l3l4cs_axis_wrap
+
+
+
+
+/////////////////////////////////////////
+// DEFINES
+/////////////////////////////////////////
+$WS/$PROJ/l3l4cs/dv/src/l3l4cs_defines.sv
+$WS/$PROJ/l3l4cs/dv/src/l3l4cs_macros.sv
+/////////////////////////////////////////
+
+
+/////////////////////////////////////////
+// verification components
+/////////////////////////////////////////
+// SUB CLASSES
+/////////////////////////////////////////
+$WS/$PROJ/l3l4cs/dv/src/l3l4cs_global_pkg.sv
+$WS/$PROJ/l3l4cs/dv/src/agents/l3l4cs_cs_agent/l3l4cs_cs_agent_types_pkg.sv
+$WS/$PROJ/l3l4cs/dv/src/agents/l3l4cs_cs_agent/l3l4cs_cs_agent_pkg.sv
+$WS/$PROJ/l3l4cs/dv/src/agents/l3l4cs_axis_wrap/l3l4cs_axis_wrap_types_pkg.sv
+$WS/$PROJ/l3l4cs/dv/src/agents/l3l4cs_axis_wrap/l3l4cs_axis_wrap_pkg.sv
+$WS/$PROJ/l3l4cs/dv/src/l3l4cs_pkg.sv
+
+$WS/$PROJ/l3l4cs/dv/tb/l3l4cs_th.sv
+$WS/$PROJ/l3l4cs/dv/src/agents/l3l4cs_cs_agent/l3l4cs_cs_agent_if.sv
+$WS/$PROJ/l3l4cs/dv/src/agents/l3l4cs_axis_wrap/l3l4cs_axis_wrap_if.sv
+
+
+// TESTS
+/////////////////////////////////////////
+$WS/$PROJ/l3l4cs/dv/tests/l3l4cs_tests_pkg.sv

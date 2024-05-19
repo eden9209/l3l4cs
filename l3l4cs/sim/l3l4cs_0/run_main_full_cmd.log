@@ -1,0 +1,6 @@
+xrun
+-top l3l4cs 
+-f /mnt/apps/myshare/edens/WS_l3l4cs0//mnt/apps/myshare/edens/WS_l3l4cs0/commengine/l3l4cs/dv/dfile/dfile_tb 
+-xmlibdirname /mnt/apps/myshare/edens/WS_l3l4cs0/commengine/l3l4cs/sim//COMP_DB
+-logfile run_main.log
+-input /mnt/apps/myshare/edens/WS_l3l4cs0/commengine/l3l4cs/dv/tb/l3l4cs_tb.tcl

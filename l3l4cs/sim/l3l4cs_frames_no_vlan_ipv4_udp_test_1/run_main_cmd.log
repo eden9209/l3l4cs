@@ -1,0 +1,1 @@
+run_main.py --block l3l4cs --test l3l4cs_frames_no_vlan_ipv4_udp_test --flags "+UVM_VERBOSITY=UVM_HIGH" +ITEMS_NUM=10 --seed 1

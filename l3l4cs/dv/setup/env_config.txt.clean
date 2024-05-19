@@ -1,0 +1,10 @@
+top:l3l4cs
+
+{
+
+agent:cs_agent:[CS_OUT]
+agent:axi_agent:[AXI_IN]
+agent:axi_agent:[AXI_OUT]
+
+}
+

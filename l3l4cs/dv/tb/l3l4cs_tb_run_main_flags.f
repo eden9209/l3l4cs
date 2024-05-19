@@ -1,0 +1,2 @@
+-uvm
+-uvmnocdnsextra -uvmhome CDNS-1.2

@@ -1,0 +1,12 @@
+
+    # Comment
+    // Another comment
+    // the structure is <type>:<requested class name>:[<requested instance name1>,<requested instance name2>,...]
+    top:l3l4cs
+    //TODO rename BLOCK to your top env name
+    {
+        agent:cs_agent:[CS_OUT]
+        agent:axi_agent:[AXI_IN]
+        agent:axi_agent:[AXI_OUT]
+    }
+    

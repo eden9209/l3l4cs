@@ -1,0 +1,144 @@
+*** Message Type: info ***
+When: Sat Jan 27 03:20:20 PM IST 2024
+SimVision started.
+Version: TOOL:  simvision(64)   23.03-s004
+User: edens
+Host: localhost
+Platform: Linux/x86_64/3.10.0-1160.62.1.el7.x86_64
+Started: Sat Jan 27 03:20:20 PM IST 2024
+Command: /mnt/apps/cadence/XCELIUM2303/tools.lnx86/simvision/bin/64bit/simvision.exe -connect dc:localhost:36020 -64BIT -nocopyright
+Work Directory: /mnt/apps/myshare/edens/WS_l3l4cs0
+ 
+*** Message Type: info ***
+When: Sat Jan 27 03:20:21 PM IST 2024
+Create browser window: "Design Browser 1"
+ 
+*** Message Type: info ***
+When: Sat Jan 27 03:20:32 PM IST 2024
+Create console window: "Console"
+ 
+*** Message Type: info ***
+When: Sat Jan 27 03:20:37 PM IST 2024
+Connect to Simulator
+      Design: worklib.ready_rand_gen:sv
+   Languages: verilog assertion
+   Simulator: XM-Sim
+     Version: TOOL:        xmsim(64)       23.03-s004
+        User: edens
+        Host: localhost
+Time Started: Sat Jan 27 03:20:15 PM IST 2024
+  Process ID: 205518
+   Directory: /mnt/apps/myshare/edens/WS_l3l4cs0
+     Command: xrun -clean -uvm -64bit -unbuffered -timescale 1ns/1ps -sysv -access +rw -uvmhome CDNS-1.2 -f /mnt/apps/myshare/edens/WS_l3l4cs0/l3l4cs/dv/dfile/dfile_tb -logfile my_log__seed0.log +UVM_TESTNAME=l3l4cs_frames_no_vlan_ipv4_udp_test /mnt/apps/myshare/edens/WS_l3l4cs0/l3l4cs/dv/tb/l3l4cs_tb.sv -gui -seed 0 -messages -linedebug -define SYNCHRONOUS_RESET +UVM_NO_SUMMARY +UVM_VERBOSITY=UVM_HIGH +UVM_TIMEOUT=78000000ns -warn_multiple_driver -status -define UVM_REPORT_DISABLE_FILE_LINE -coverage A
+
+ 
+*** Message Type: info ***
+When: Sat Jan 27 03:20:39 PM IST 2024
+Create utility window: "Properties"
+ 
+*** Message Type: info ***
+When: Sat Jan 27 03:20:53 PM IST 2024
+Create source window: "Source Browser 1"
+ 
+*** Message Type: info ***
+When: Sat Jan 27 03:36:43 PM IST 2024
+Exit XM-Sim: user
+      Design: worklib.ready_rand_gen:sv
+   Languages: verilog assertion
+   Simulator: XM-Sim
+     Version: TOOL:        xmsim(64)       23.03-s004
+        User: edens
+        Host: localhost
+Time Started: Sat Jan 27 03:33:31 PM IST 2024
+  Process ID: 213107
+   Directory: /mnt/apps/myshare/edens/WS_l3l4cs0
+     Command: xrun -clean -uvm -64bit -unbuffered -timescale 1ns/1ps -sysv -access +rw -uvmhome CDNS-1.2 -f /mnt/apps/myshare/edens/WS_l3l4cs0/l3l4cs/dv/dfile/dfile_tb -logfile my_log__seed0.log +UVM_TESTNAME=l3l4cs_frames_no_vlan_ipv4_udp_test /mnt/apps/myshare/edens/WS_l3l4cs0/l3l4cs/dv/tb/l3l4cs_tb.sv -gui -seed 0 -messages -linedebug -define SYNCHRONOUS_RESET +UVM_NO_SUMMARY +UVM_VERBOSITY=UVM_HIGH +UVM_TIMEOUT=78000000ns -warn_multiple_driver -status -define UVM_REPORT_DISABLE_FILE_LINE -coverage A -s
+
+ 
+*** Message Type: info ***
+When: Sat Jan 27 04:08:16 PM IST 2024
+Exit XM-Sim: user
+      Design: worklib.ready_rand_gen:sv
+   Languages: verilog assertion
+   Simulator: XM-Sim
+     Version: TOOL:        xmsim(64)       23.03-s004
+        User: edens
+        Host: localhost
+Time Started: Sat Jan 27 04:00:46 PM IST 2024
+  Process ID: 227738
+   Directory: /mnt/apps/myshare/edens/WS_l3l4cs0
+     Command: xrun -clean -uvm -64bit -unbuffered -timescale 1ns/1ps -sysv -access +rw -uvmhome CDNS-1.2 -f /mnt/apps/myshare/edens/WS_l3l4cs0/l3l4cs/dv/dfile/dfile_tb -logfile my_log__seed0.log +UVM_TESTNAME=l3l4cs_frames_no_vlan_ipv4_udp_test /mnt/apps/myshare/edens/WS_l3l4cs0/l3l4cs/dv/tb/l3l4cs_tb.sv -gui -seed 0 -messages -linedebug -define SYNCHRONOUS_RESET +UVM_NO_SUMMARY +UVM_VERBOSITY=UVM_HIGH +UVM_TIMEOUT=78000000ns -warn_multiple_driver -status -define UVM_REPORT_DISABLE_FILE_LINE -coverage A -s
+
+ 
+*** Message Type: info ***
+When: Sat Jan 27 04:27:41 PM IST 2024
+Exit XM-Sim: user
+      Design: worklib.ready_rand_gen:sv
+   Languages: verilog assertion
+   Simulator: XM-Sim
+     Version: TOOL:        xmsim(64)       23.03-s004
+        User: edens
+        Host: localhost
+Time Started: Sat Jan 27 04:19:03 PM IST 2024
+  Process ID: 237602
+   Directory: /mnt/apps/myshare/edens/WS_l3l4cs0
+     Command: xrun -clean -uvm -64bit -unbuffered -timescale 1ns/1ps -sysv -access +rw -uvmhome CDNS-1.2 -f /mnt/apps/myshare/edens/WS_l3l4cs0/l3l4cs/dv/dfile/dfile_tb -logfile my_log__seed0.log +UVM_TESTNAME=l3l4cs_frames_no_vlan_ipv4_udp_test /mnt/apps/myshare/edens/WS_l3l4cs0/l3l4cs/dv/tb/l3l4cs_tb.sv -gui -seed 0 -messages -linedebug -define SYNCHRONOUS_RESET +UVM_NO_SUMMARY +UVM_VERBOSITY=UVM_HIGH +UVM_TIMEOUT=78000000ns -warn_multiple_driver -status -define UVM_REPORT_DISABLE_FILE_LINE -coverage A -s
+
+ 
+*** Message Type: info ***
+When: Sat Jan 27 04:39:42 PM IST 2024
+Exit XM-Sim: user
+      Design: worklib.ready_rand_gen:sv
+   Languages: verilog assertion
+   Simulator: XM-Sim
+     Version: TOOL:        xmsim(64)       23.03-s004
+        User: edens
+        Host: localhost
+Time Started: Sat Jan 27 04:28:27 PM IST 2024
+  Process ID: 243129
+   Directory: /mnt/apps/myshare/edens/WS_l3l4cs0
+     Command: xrun -clean -uvm -64bit -unbuffered -timescale 1ns/1ps -sysv -access +rw -uvmhome CDNS-1.2 -f /mnt/apps/myshare/edens/WS_l3l4cs0/l3l4cs/dv/dfile/dfile_tb -logfile my_log__seed0.log +UVM_TESTNAME=l3l4cs_frames_no_vlan_ipv4_udp_test /mnt/apps/myshare/edens/WS_l3l4cs0/l3l4cs/dv/tb/l3l4cs_tb.sv -gui -seed 0 -messages -linedebug -define SYNCHRONOUS_RESET +UVM_NO_SUMMARY +UVM_VERBOSITY=UVM_HIGH +UVM_TIMEOUT=78000000ns -warn_multiple_driver -status -define UVM_REPORT_DISABLE_FILE_LINE -coverage A -s
+
+ 
+*** Message Type: info ***
+When: Sat Jan 27 04:42:53 PM IST 2024
+Exit XM-Sim: user
+      Design: worklib.ready_rand_gen:sv
+   Languages: verilog assertion
+   Simulator: XM-Sim
+     Version: TOOL:        xmsim(64)       23.03-s004
+        User: edens
+        Host: localhost
+Time Started: Sat Jan 27 04:40:21 PM IST 2024
+  Process ID: 249449
+   Directory: /mnt/apps/myshare/edens/WS_l3l4cs0
+     Command: xrun -clean -uvm -64bit -unbuffered -timescale 1ns/1ps -sysv -access +rw -uvmhome CDNS-1.2 -f /mnt/apps/myshare/edens/WS_l3l4cs0/l3l4cs/dv/dfile/dfile_tb -logfile my_log__seed0.log +UVM_TESTNAME=l3l4cs_frames_no_vlan_ipv4_udp_test /mnt/apps/myshare/edens/WS_l3l4cs0/l3l4cs/dv/tb/l3l4cs_tb.sv -gui -seed 0 -messages -linedebug -define SYNCHRONOUS_RESET +UVM_NO_SUMMARY +UVM_VERBOSITY=UVM_HIGH +UVM_TIMEOUT=78000000ns -warn_multiple_driver -status -define UVM_REPORT_DISABLE_FILE_LINE -coverage A -s
+
+ 
+*** Message Type: error ***
+When: Sat Jan 27 04:42:54 PM IST 2024
+XM-Sim Crashed:
+      Design: worklib.ready_rand_gen:sv
+   Languages: verilog assertion
+   Simulator: XM-Sim
+     Version: TOOL:        xmsim(64)       23.03-s004
+        User: edens
+        Host: localhost
+Time Started: Sat Jan 27 04:40:21 PM IST 2024
+  Process ID: 249449
+   Directory: /mnt/apps/myshare/edens/WS_l3l4cs0
+     Command: xrun -clean -uvm -64bit -unbuffered -timescale 1ns/1ps -sysv -access +rw -uvmhome CDNS-1.2 -f /mnt/apps/myshare/edens/WS_l3l4cs0/l3l4cs/dv/dfile/dfile_tb -logfile my_log__seed0.log +UVM_TESTNAME=l3l4cs_frames_no_vlan_ipv4_udp_test /mnt/apps/myshare/edens/WS_l3l4cs0/l3l4cs/dv/tb/l3l4cs_tb.sv -gui -seed 0 -messages -linedebug -define SYNCHRONOUS_RESET +UVM_NO_SUMMARY +UVM_VERBOSITY=UVM_HIGH +UVM_TIMEOUT=78000000ns -warn_multiple_driver -status -define UVM_REPORT_DISABLE_FILE_LINE -coverage A -s
+      Design: worklib.ready_rand_gen:sv
+   Languages: verilog assertion
+   Simulator: XM-Sim
+     Version: TOOL:     xmsim(64)       23.03-s004
+        User: edens
+        Host: localhost
+Time Started: Sat Jan 27 04:40:21 PM IST 2024
+  Process ID: 249449
+   Directory: /mnt/apps/myshare/edens/WS_l3l4cs0
+     Command: xrun -clean -uvm -64bit -unbuffered -timescale 1ns/1ps -sysv -access +rw -uvmhome CDNS-1.2 -f /mnt/apps/myshare/edens/WS_l3l4cs0/l3l4cs/dv/dfile/dfile_tb -logfile my_log__seed0.log +UVM_TESTNAME=l3l4cs_frames_no_vlan_ipv4_udp_test /mnt/apps/myshare/edens/WS_l3l4cs0/l3l4cs/dv/tb/l3l4cs_tb.sv -gui -seed 0 -messages -linedebug -define SYNCHRONOUS_RESET +UVM_NO_SUMMARY +UVM_VERBOSITY=UVM_HIGH +UVM_TIMEOUT=78000000ns -warn_multiple_driver -status -define UVM_REPORT_DISABLE_FILE_LINE -coverage A -s
+
+Outstanding STRAP Requests:
+        strap::get v {eth_vip_pkg::eth_vip_driver#(eth_p_agent_pkg::eth_p_agent_item,eth_p_agent_pkg::eth_p_agent_config#(eth_p_agent_pkg::eth_p_agent_vif#(virtual interface eth_vip_if #(32'h00000008,32'h00000001,32'h0000001f)),gk_base_global_pkg::gk_base_global,eth_p_agent_pkg::eth_p_agent_item,1))::shift_left.word_buffer} -vv
+ 

@@ -1,0 +1,137 @@
+Operating system: Linux
+                  0.0.0 Linux 3.10.0-1160.62.1.el7.x86_64 #1 SMP Wed Mar 23 09:04:02 UTC 2022 x86_64
+CPU: amd64
+     family 6 model 85 stepping 7
+     1 CPU
+
+GPU: UNKNOWN
+
+Crash reason:  DUMP_REQUESTED
+Crash address: 0x7f7a272be406
+Process uptime: not available
+
+Thread 0 (crashed)
+ 0  libcbreakpad.so + 0x36406
+    rax = 0x0000000000000002   rdx = 0x0000000000000000
+    rcx = 0x00007f7a272bccb2   rbx = 0x00007ffef77ee230
+    rsi = 0x0000000000000001   rdi = 0x00007ffef77edbb8
+    rbp = 0x00007ffef77ee170   rsp = 0x00007ffef77edb20
+     r8 = 0x0000000000000000    r9 = 0x0000000000000000
+    r10 = 0x0000000000000000   r11 = 0x0000000000e3fa42
+    r12 = 0x0000000000000000   r13 = 0x0000000000000000
+    r14 = 0x00007ffef77ee1b0   r15 = 0x0000000000000050
+    rip = 0x00007f7a272be406
+    Found by: given as instruction pointer in context
+ 1  libcbreakpad.so + 0x34672
+    rbp = 0x00007ffef77ee2c0   rsp = 0x00007ffef77ee180
+    rip = 0x00007f7a272bc672
+    Found by: previous frame's frame pointer
+ 2  simvision.exe!svSigHandler + 0xcf
+    rbp = 0x00007ffef77ee2f0   rsp = 0x00007ffef77ee2d0
+    rip = 0x000000000059bb13
+    Found by: previous frame's frame pointer
+ 3  libpthread-2.17.so + 0xf630
+    rbp = 0x00000000009fd000   rsp = 0x00007ffef77ee300
+    rip = 0x00007f7a29a65630
+    Found by: call frame info
+ 4  simvision.exe!void std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_construct<char const*>(char const*, char const*, std::forward_iterator_tag) + 0xb20
+    rsp = 0x00007ffef77ee380   rip = 0x00000000009fd000
+    Found by: stack scanning
+ 5  simvision.exe!daiGenErrorText + 0x2b01f
+    rsp = 0x00007ffef77ee3b0   rip = 0x0000000000752dff
+    Found by: stack scanning
+
+Loaded modules:
+0x00400000 - 0x0132cfff  simvision.exe  ???  (main)
+0x7f7a201d8000 - 0x7f7a201d8fff  get_open_dbs.so  ???
+0x7f7a203d9000 - 0x7f7a203d9fff  libpdinit.so  ???
+0x7f7a205db000 - 0x7f7a205dffff  libXfixes.so.3.1.0  ???
+0x7f7a207e1000 - 0x7f7a207e9fff  libXrender.so.1.3.0  ???
+0x7f7a209ec000 - 0x7f7a209f4fff  libXcursor.so.1.0.2  ???
+0x7f7a20d45000 - 0x7f7a27287fff  locale-archive  ???
+0x7f7a27288000 - 0x7f7a272dbfff  libcbreakpad.so  ???  (WARNING: No symbols, libcbreakpad.so, 1A0F7F62185D2C02CF86A6E6B7CC82920)
+0x7f7a272f9000 - 0x7f7a27b63fff  passwd  ???
+0x7f7a27b64000 - 0x7f7a27b6bfff  libnss_sss.so.2  ???
+0x7f7a27d6d000 - 0x7f7a27d78fff  libnss_files-2.17.so  ???
+0x7f7a2862c000 - 0x7f7a2862dfff  libXau.so.6.0.0  ???
+0x7f7a28830000 - 0x7f7a28856fff  libxcb.so.1.1.0  ???
+0x7f7a28a58000 - 0x7f7a28a68fff  libXext.so.6.4.0  ???
+0x7f7a28c6a000 - 0x7f7a28da1fff  libX11.so.6.3.0  ???
+0x7f7a28fa8000 - 0x7f7a2916bfff  libc-2.17.so  ???
+0x7f7a29376000 - 0x7f7a29476fff  libm-2.17.so  ???
+0x7f7a29678000 - 0x7f7a29679fff  libdl-2.17.so  ???
+0x7f7a2987c000 - 0x7f7a299fafff  libstdc++.so.6.0.28  ???
+0x7f7a29a56000 - 0x7f7a29a6cfff  libpthread-2.17.so  ???  (WARNING: No symbols, libpthread-2.17.so, F2C80CE132B93DFCAEDA22F8DAC5EBB90)
+0x7f7a29c72000 - 0x7f7a29c78fff  librt-2.17.so  ???
+0x7f7a29e7a000 - 0x7f7a29e9bfff  ld-2.17.so  ???
+0x7f7a29edd000 - 0x7f7a29ee4fff  txepi.so  ???
+0x7f7a29f6a000 - 0x7f7a29ff9fff  libxmjudy.so.1.0.3  ???
+0x7f7a2a008000 - 0x7f7a2a01bfff  libgcc_s.so.1  ???
+0x7f7a2a024000 - 0x7f7a2a048fff  lib_cadencehelp.so.2.0.0  ???
+0x7f7a2a056000 - 0x7f7a2a06dfff  libcdsCommon_sh.so  ???
+0x7f7a2a081000 - 0x7f7a2a082fff  eswtrace.so  ???
+0x7f7a2a086000 - 0x7f7a2a087fff  invoke_ida.so  ???
+0x7f7a2a08b000 - 0x7f7a2a08cfff  heapanalyzer.so  ???
+0x7f7a2a090000 - 0x7f7a2a091fff  sv_databrowser.so  ???
+0x7f7a2a095000 - 0x7f7a2a096fff  waveform_frequency_plot_plugin.so  ???
+0x7ffef77f8000 - 0x7ffef77f9fff  linux-gate.so  ???
+
+******BACKTRACE*****
+<unknown> (libcbreakpad.so) [0x7f7a272bc1a3]
+<unknown> (libcbreakpad.so) [0x7f7a272bc630]
+svSigHandler (simvision.exe) [0x59bb13]
+<unknown> (libpthread.so.0) [0x7f7a29a65630]
+daiGenErrorText (simvision.exe) [0x752dff]
+void std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_construct<char const*>(char const*, char const*, std::forward_iterator_tag) (simvision.exe) [0x9fdb44]
+da_scale_int64 (simvision.exe) [0x6b6e35]
+da_error (simvision.exe) [0x600769]
+da_delete (simvision.exe) [0x600830]
+Mx_SrcMacroGetMacroLineNum (simvision.exe) [0xb3690f]
+da_feed_cookie (simvision.exe) [0x6032e4]
+da_feed_cookie (simvision.exe) [0x6033d3]
+Tcl_InitStubs (simvision.exe) [0xe95a7c]
+Tcl_ServiceEvent (simvision.exe) [0xe87d89]
+Tcl_DoOneEvent (simvision.exe) [0xe88099]
+Tk_UpdateObjCmd (simvision.exe) [0xebd92b]
+TclEvalObjvInternal (simvision.exe) [0xe3fb36]
+TclExprFloatError (simvision.exe) [0xe66f1f]
+TclCompEvalObj (simvision.exe) [0xe6acf0]
+Tcl_EvalObjEx (simvision.exe) [0xe41ac6]
+Tcl_SwitchObjCmd (simvision.exe) [0xe5010d]
+TclEvalObjvInternal (simvision.exe) [0xe3fb36]
+TclExprFloatError (simvision.exe) [0xe66f1f]
+TclCompEvalObj (simvision.exe) [0xe6acf0]
+Tcl_EvalObjEx (simvision.exe) [0xe41ac6]
+Itcl_EvalMemberCode (simvision.exe) [0xf47e07]
+Itcl_ExecMethod (simvision.exe) [0xf487aa]
+Itcl_EvalArgs (simvision.exe) [0xf4de3a]
+Itcl_HandleInstance (simvision.exe) [0xf48fe8]
+TclEvalObjvInternal (simvision.exe) [0xe3fb36]
+TclExprFloatError (simvision.exe) [0xe66f1f]
+TclCompEvalObj (simvision.exe) [0xe6acf0]
+Tcl_EvalObjEx (simvision.exe) [0xe41ac6]
+Tcl_PopCallFrame (simvision.exe) [0xe852fe]
+Tcl_NamespaceObjCmd (simvision.exe) [0xe870fe]
+TclEvalObjvInternal (simvision.exe) [0xe3fb36]
+Tcl_EvalEx (simvision.exe) [0xe41348]
+Tcl_EvalObjEx (simvision.exe) [0xe41a72]
+Tcl_UplevelObjCmd (simvision.exe) [0xe90450]
+TclEvalObjvInternal (simvision.exe) [0xe3fb36]
+TclExprFloatError (simvision.exe) [0xe66f1f]
+TclCompEvalObj (simvision.exe) [0xe6acf0]
+TclObjInterpProc (simvision.exe) [0xe90909]
+TclEvalObjvInternal (simvision.exe) [0xe3fb36]
+Tcl_EvalEx (simvision.exe) [0xe41348]
+Tk_BindEvent (simvision.exe) [0xebbdbf]
+TkBindEventProc (simvision.exe) [0xebcfcb]
+Tk_HandleEvent (simvision.exe) [0xec2a8e]
+Tk_HandleEvent (simvision.exe) [0xec2b11]
+Tcl_ServiceEvent (simvision.exe) [0xe87d89]
+Tcl_DoOneEvent (simvision.exe) [0xe87fe5]
+Tk_MainLoop (simvision.exe) [0xec2faf]
+Tcl_AppInit (simvision.exe) [0x59cb37]
+Pro_WrapTkMain (simvision.exe) [0x5a5f70]
+main (simvision.exe) [0x59983d]
+<unknown> (libc.so.6) [0x7f7a28fca555]
+_start (simvision.exe) [0x58e916]
+******BACKTRACE END*****
